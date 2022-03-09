@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial;
+}
+
+body {
+  background: gray;
+}
+
+.wrapper {
+  background: #ffffff;
+  padding: 30px 35px;
+  box-shadow: 0px 0px 62.7411px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+  width: 593.95px;
+  margin: 0 auto;
+}
+
+.title {
+  border-bottom: 3.13706px solid rgba(0, 0, 0, 0.05);
+  padding-bottom: 55px;
+}
+
+.wrapper .title .head-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapper .title .head-title h4 {
+  font-weight: 600;
+  font-size: 37.6447px;
+  line-height: 46px;
+}
+
+.wrapper .title .head-title .btn-exit {
+  font-weight: 600;
+  font-size: 37.6447px;
+  line-height: 46px;
+}
+
+.wrapper .title .btn-google {
+  width: 100%;
+  background: #ffffff;
+  border: 3.13706px solid rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.wrapper .title .btn-google .ic-google {
+  margin-right: 20px;
+  font-weight: 600;
+  font-size: 27.1878px;
+  line-height: 33px;
+}
+
+.wrapper .title .btn-google p {
+  font-weight: 600;
+  font-size: 27.1878px;
+  line-height: 33px;
+}
+
+.wrapper form {
+  padding: 40px 0;
+}
+
+.wrapper .input label {
+  display: block;
+  font-weight: 500;
+  font-size: 27.1878px;
+  line-height: 32px;
+}
+
+.wrapper .input input {
+  width: 100%;
+  height: 50px;
+  background: #ffffff;
+  border: 3.13706px solid rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin: 30px 0;
+}
+
+.wrapper .btn .btn-checkbox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.wrapper .btn .btn-checkbox input {
+  width: 33.46px;
+  height: 33.46px;
+}
+
+.wrapper .btn .btn-checkbox p {
+  font-weight: 600;
+  font-size: 26.1421px;
+  line-height: 32px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.wrapper .btn button {
+  width: 516.57px;
+  height: 64.83px;
+  background: #0085ff;
+  border-radius: 10.4569px;
+  font-weight: 600;
+  font-size: 27.1878px;
+  line-height: 33px;
+  color: rgba(255, 255, 255, 0.95);
+  border: none;
+  margin-bottom: 40px;
+}
+.wrapper .btn .btn-forgot {
+  width: 100%;
+  text-align: center;
+}
+
+.wrapper .btn a {
+  font-weight: 600;
+  font-size: 27.1878px;
+  line-height: 33px;
+  color: #0085ff;
+  text-decoration: none;
+}
+
+.wrapper form {
+  border-bottom: 3.13706px solid rgba(0, 0, 0, 0.05);
+}
+
+.wrapper .link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper .link h5 {
+  font-weight: 600;
+  font-size: 27.1878px;
+  line-height: 33px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.wrapper .link a {
+  font-weight: 600;
+  font-size: 27.1878px;
+  line-height: 33px;
+  color: rgba(0, 133, 255, 0.8);
+  text-decoration: none;
+}
